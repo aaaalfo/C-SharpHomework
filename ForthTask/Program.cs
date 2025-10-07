@@ -8,11 +8,11 @@ namespace ForthTask
         {
             string password = Console.ReadLine();
             string specialCharacters = "!@#$%^&*";
-            bool Digit_flag = false;
-            bool Uppercase_flag = false;
-            bool Special_flag = false;
-            int password_length = password.Length;
-            if (password_length < 8)
+            bool digitFlag = false;
+            bool uppercaseFlag = false;
+            bool specialFlag = false;
+            int passwordLength = password.Length;
+            if (passwordLength < 8)
             {
                 Console.WriteLine("Первый критерий не выполнен");
             }
@@ -20,26 +20,26 @@ namespace ForthTask
             {
                 if (char.IsDigit(chr))
                 {
-                    Digit_flag = true;
+                    digitFlag = true;
                 }
                 if (char.IsUpper(chr))
                 {
-                    Uppercase_flag = true;
+                    uppercaseFlag = true;
                 }
                 if (specialCharacters.Contains(chr))
                 {
-                    Special_flag = true;
+                    specialFlag = true;
                 }
             }
-            if (!Digit_flag)
+            if (!digitFlag)
             {
                 Console.WriteLine("Второй критерий не выполнен");
             }
-            if (!Uppercase_flag)
+            if (!uppercaseFlag)
             {
                 Console.WriteLine("Третий критерий не выполнен");
             }
-            if (!Special_flag)
+            if (!specialFlag)
             {
                 Console.WriteLine("Четвертый критерий не выполнен");
             }
