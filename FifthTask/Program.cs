@@ -25,7 +25,7 @@ class Program
         Console.WriteLine($"Количество слов: {wordCount}");
         Console.WriteLine($"Количество предложений: {sentenceCount}");
 
-         Console.WriteLine("Слова, встречающиеся максимальное количество раз:");
+        Console.WriteLine("Слова, встречающиеся максимальное количество раз:");
         if (mostFrequentWords.Any())
         {
             foreach (var group in mostFrequentWords)
