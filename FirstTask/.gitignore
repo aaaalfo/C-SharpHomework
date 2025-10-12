@@ -1,0 +1,15 @@
+
+*.o
+*.obj
+*.args
+*.DS_Store
+# General build directories:
+# - for Makefile:
+/obj/
+# - for CMake, by default:
+/build/
+/_build/
+
+# CLion projects:
+/.idea/
+/cmake-build*/
