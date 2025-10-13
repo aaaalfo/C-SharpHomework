@@ -1,0 +1,15 @@
+/Users/anton/Projects/C#_projects/C-SharpHomework/ThirdTask/bin/Debug/net9.0/ThirdTask
+/Users/anton/Projects/C#_projects/C-SharpHomework/ThirdTask/bin/Debug/net9.0/ThirdTask.deps.json
+/Users/anton/Projects/C#_projects/C-SharpHomework/ThirdTask/bin/Debug/net9.0/ThirdTask.runtimeconfig.json
+/Users/anton/Projects/C#_projects/C-SharpHomework/ThirdTask/bin/Debug/net9.0/ThirdTask.dll
+/Users/anton/Projects/C#_projects/C-SharpHomework/ThirdTask/bin/Debug/net9.0/ThirdTask.pdb
+/Users/anton/Projects/C#_projects/C-SharpHomework/ThirdTask/obj/Debug/net9.0/ThirdTask.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anton/Projects/C#_projects/C-SharpHomework/ThirdTask/obj/Debug/net9.0/ThirdTask.AssemblyInfoInputs.cache
+/Users/anton/Projects/C#_projects/C-SharpHomework/ThirdTask/obj/Debug/net9.0/ThirdTask.AssemblyInfo.cs
+/Users/anton/Projects/C#_projects/C-SharpHomework/ThirdTask/obj/Debug/net9.0/ThirdTask.csproj.CoreCompileInputs.cache
+/Users/anton/Projects/C#_projects/C-SharpHomework/ThirdTask/obj/Debug/net9.0/ThirdTask.sourcelink.json
+/Users/anton/Projects/C#_projects/C-SharpHomework/ThirdTask/obj/Debug/net9.0/ThirdTask.dll
+/Users/anton/Projects/C#_projects/C-SharpHomework/ThirdTask/obj/Debug/net9.0/refint/ThirdTask.dll
+/Users/anton/Projects/C#_projects/C-SharpHomework/ThirdTask/obj/Debug/net9.0/ThirdTask.pdb
+/Users/anton/Projects/C#_projects/C-SharpHomework/ThirdTask/obj/Debug/net9.0/ThirdTask.genruntimeconfig.cache
+/Users/anton/Projects/C#_projects/C-SharpHomework/ThirdTask/obj/Debug/net9.0/ref/ThirdTask.dll
