@@ -1,0 +1,15 @@
+/Users/anton/Projects/C#_projects/C-SharpHomework/SecondTask/bin/Debug/net9.0/SecondTask
+/Users/anton/Projects/C#_projects/C-SharpHomework/SecondTask/bin/Debug/net9.0/SecondTask.deps.json
+/Users/anton/Projects/C#_projects/C-SharpHomework/SecondTask/bin/Debug/net9.0/SecondTask.runtimeconfig.json
+/Users/anton/Projects/C#_projects/C-SharpHomework/SecondTask/bin/Debug/net9.0/SecondTask.dll
+/Users/anton/Projects/C#_projects/C-SharpHomework/SecondTask/bin/Debug/net9.0/SecondTask.pdb
+/Users/anton/Projects/C#_projects/C-SharpHomework/SecondTask/obj/Debug/net9.0/SecondTask.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anton/Projects/C#_projects/C-SharpHomework/SecondTask/obj/Debug/net9.0/SecondTask.AssemblyInfoInputs.cache
+/Users/anton/Projects/C#_projects/C-SharpHomework/SecondTask/obj/Debug/net9.0/SecondTask.AssemblyInfo.cs
+/Users/anton/Projects/C#_projects/C-SharpHomework/SecondTask/obj/Debug/net9.0/SecondTask.csproj.CoreCompileInputs.cache
+/Users/anton/Projects/C#_projects/C-SharpHomework/SecondTask/obj/Debug/net9.0/SecondTask.sourcelink.json
+/Users/anton/Projects/C#_projects/C-SharpHomework/SecondTask/obj/Debug/net9.0/SecondTask.dll
+/Users/anton/Projects/C#_projects/C-SharpHomework/SecondTask/obj/Debug/net9.0/refint/SecondTask.dll
+/Users/anton/Projects/C#_projects/C-SharpHomework/SecondTask/obj/Debug/net9.0/SecondTask.pdb
+/Users/anton/Projects/C#_projects/C-SharpHomework/SecondTask/obj/Debug/net9.0/SecondTask.genruntimeconfig.cache
+/Users/anton/Projects/C#_projects/C-SharpHomework/SecondTask/obj/Debug/net9.0/ref/SecondTask.dll
