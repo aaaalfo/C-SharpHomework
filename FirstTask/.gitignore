@@ -3,6 +3,8 @@
 *.obj
 *.args
 *.DS_Store
+obj
+bin
 # General build directories:
 # - for Makefile:
 /obj/
