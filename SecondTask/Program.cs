@@ -29,7 +29,8 @@ class Program
                 Console.WriteLine(sum);
             }
         }
-        
-        Console.WriteLine($"Итоговая сумма: {sum}");
+
+        Console.WriteLine($"Итоговая сумма:"); 
+        Console.WriteLine($"{sum}");
     }
 }
