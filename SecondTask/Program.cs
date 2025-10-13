@@ -12,7 +12,13 @@ class Program
             Console.WriteLine("Введите число:");
             string input = Console.ReadLine();
             
-            if (double.TryParse(input, out double number))
+             bool isSuccess = double.TryParse(input, out double number);
+                if (!isSuccess)
+                {
+                Console.WriteLine("Нужно было ввести число!");
+                }
+
+                else
             {
                 if (number == 0)
                 {
@@ -24,6 +30,6 @@ class Program
             }
         }
         
-        Console.WriteLine(sum);
+        Console.WriteLine($"Итоговая сумма: {sum}");
     }
 }
