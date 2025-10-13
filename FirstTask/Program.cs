@@ -17,6 +17,6 @@ class Program
 
         double fahrenheit = (celsius * 9 / 5) + 32;
 
-        Console.WriteLine($"Температуре в градусах Фаренгейта: {celsius}°C = {fahrenheit}°F"); 
+        Console.WriteLine($"Температура в градусах Фаренгейта: {celsius}°C = {fahrenheit}°F"); 
     }
 }
