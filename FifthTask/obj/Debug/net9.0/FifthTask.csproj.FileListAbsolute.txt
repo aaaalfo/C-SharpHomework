@@ -1,0 +1,15 @@
+/Users/anton/Projects/C#_projects/C-SharpHomework/FifthTask/obj/Debug/net9.0/FifthTask.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anton/Projects/C#_projects/C-SharpHomework/FifthTask/obj/Debug/net9.0/FifthTask.AssemblyInfoInputs.cache
+/Users/anton/Projects/C#_projects/C-SharpHomework/FifthTask/obj/Debug/net9.0/FifthTask.AssemblyInfo.cs
+/Users/anton/Projects/C#_projects/C-SharpHomework/FifthTask/obj/Debug/net9.0/FifthTask.csproj.CoreCompileInputs.cache
+/Users/anton/Projects/C#_projects/C-SharpHomework/FifthTask/obj/Debug/net9.0/FifthTask.sourcelink.json
+/Users/anton/Projects/C#_projects/C-SharpHomework/FifthTask/bin/Debug/net9.0/FifthTask
+/Users/anton/Projects/C#_projects/C-SharpHomework/FifthTask/bin/Debug/net9.0/FifthTask.deps.json
+/Users/anton/Projects/C#_projects/C-SharpHomework/FifthTask/bin/Debug/net9.0/FifthTask.runtimeconfig.json
+/Users/anton/Projects/C#_projects/C-SharpHomework/FifthTask/bin/Debug/net9.0/FifthTask.dll
+/Users/anton/Projects/C#_projects/C-SharpHomework/FifthTask/bin/Debug/net9.0/FifthTask.pdb
+/Users/anton/Projects/C#_projects/C-SharpHomework/FifthTask/obj/Debug/net9.0/FifthTask.dll
+/Users/anton/Projects/C#_projects/C-SharpHomework/FifthTask/obj/Debug/net9.0/refint/FifthTask.dll
+/Users/anton/Projects/C#_projects/C-SharpHomework/FifthTask/obj/Debug/net9.0/FifthTask.pdb
+/Users/anton/Projects/C#_projects/C-SharpHomework/FifthTask/obj/Debug/net9.0/FifthTask.genruntimeconfig.cache
+/Users/anton/Projects/C#_projects/C-SharpHomework/FifthTask/obj/Debug/net9.0/ref/FifthTask.dll

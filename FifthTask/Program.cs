@@ -1,39 +1,68 @@
-﻿using System;
-using System.Linq;
-using System.Text.RegularExpressions;
+﻿
 
 class Program
 {
     static void Main()
     {
+
+        Console.WriteLine("\nВведите предложение (Слова должны содержать только буквы)");
+
         string input = Console.ReadLine();
 
-        var wordMatches = Regex.Matches(input.ToLower(), @"\b[\p{L}0-9]+\b");
-        var words = wordMatches.Select(m => m.Value).ToArray();
+        string[] words = input.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                     .Select(word => new string(word.Where(c => char.IsLetter(c)).ToArray()))
+                     .Where(word => !string.IsNullOrEmpty(word))
+                     .ToArray();
+
+
         int wordCount = words.Length;
-        int sentenceCount = Regex.Matches(input, @"[.!?]+").Count;
 
-        var wordGroups = words.GroupBy(w => w).ToList();
-        int maxCount = wordGroups.Any() ? wordGroups.Max(g => g.Count()) : 0;
+        int sentenceCount = 0;
 
-        var mostFrequentWords = wordGroups
-            .Where(g => g.Count() == maxCount)
-            .OrderBy(g => g.Key);
+        double sumWordLength = 0;
 
-        double averageWordLength = wordCount > 0 ? words.Average(w => w.Length) : 0;
+        foreach (var symbol in input)
+        {
+            if (symbol == '.' || symbol == '?' || symbol == '!')
+                sentenceCount++;
+
+        }
+
+
+        Dictionary<string, int> mostFrequentWords = new Dictionary<string, int>();
+        foreach (string word in words)
+        {
+            if (mostFrequentWords.ContainsKey(word.ToLower()))
+            {
+                mostFrequentWords[word.ToLower()]++;
+            }
+            else
+            {
+                mostFrequentWords.Add(word.ToLower(), 1);
+            }
+        }
+        var maxValue = mostFrequentWords.Values.Max();
+        var maxElements = mostFrequentWords.Where(pair => pair.Value == maxValue);
+
+        foreach (var word in words)
+        {
+            sumWordLength += word.Length;
+
+        }
+
+        double averageWordLength = sumWordLength / words.Length;
 
         Console.WriteLine($"Количество слов: {wordCount}");
+
         Console.WriteLine($"Количество предложений: {sentenceCount}");
 
         Console.WriteLine("Слова, встречающиеся максимальное количество раз:");
-        if (mostFrequentWords.Any())
-        {
-            foreach (var group in mostFrequentWords)
+        foreach (var pair in maxElements)
             {
-                Console.WriteLine($"{group.Key} — {group.Count()} раз(а)");
+                Console.WriteLine($"    {pair.Key}: {pair.Value} раз(а)");
             }
-        }
 
-        Console.WriteLine($"Средняя длина слов: {averageWordLength:F2}");
+        Console.WriteLine($"Средняя длина слов: {averageWordLength:F2}\n");
     }
 }
+
