@@ -5,6 +5,7 @@ class Program
 {
     static void Main()
     {
+        Console.WriteLine("Введите температуру в градусах Цельсия:");
         string input = Console.ReadLine();
         int celsius;
         bool isSuccess = int.TryParse(input, out celsius);
@@ -15,7 +16,8 @@ class Program
         }
 
         double fahrenheit = (celsius * 9 / 5) + 32;
-        
-        Console.WriteLine($"{celsius}°C = {fahrenheit}°F");
+
+        Console.WriteLine($"Введенная температура в градусах Фаренгейта:"); 
+        Console.WriteLine($"{fahrenheit}°F");
     }
 }
