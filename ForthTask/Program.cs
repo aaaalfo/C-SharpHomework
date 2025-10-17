@@ -1,7 +1,4 @@
-﻿using System;
-using System.Formats.Asn1;
-
-namespace ForthTask
+﻿namespace ForthTask
 {
     class Program
     {
@@ -56,7 +53,7 @@ namespace ForthTask
                 Console.WriteLine("● Четвертый критерий не выполнен");
             }
 
-            else if (specialFlag && uppercaseFlag && digitFlag && passwordLength >= 8) 
+            if (specialFlag && uppercaseFlag && digitFlag && passwordLength >= 8) 
             {
                 Console.WriteLine("Пароль удовлетворяет всем критериям!");
             }
