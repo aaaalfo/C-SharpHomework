@@ -1,4 +1,4 @@
-﻿
+﻿using System;
 
 class Program
 {
@@ -10,10 +10,9 @@ class Program
         string input = Console.ReadLine();
 
         string[] words = input.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
-                     .Select(word => new string(word.Where(c => char.IsLetter(c)).ToArray()))
-                     .Where(word => !string.IsNullOrEmpty(word))
-                     .ToArray();
-
+                    .Select(word => new string(word.Where(c => char.IsLetter(c)).ToArray()))
+                    .Where(word => !string.IsNullOrEmpty(word))
+                    .ToArray();
 
         int wordCount = words.Length;
 
@@ -25,11 +24,10 @@ class Program
         {
             if (symbol == '.' || symbol == '?' || symbol == '!')
                 sentenceCount++;
-
         }
 
-
         Dictionary<string, int> mostFrequentWords = new Dictionary<string, int>();
+
         foreach (string word in words)
         {
             if (mostFrequentWords.ContainsKey(word.ToLower()))
@@ -41,13 +39,13 @@ class Program
                 mostFrequentWords.Add(word.ToLower(), 1);
             }
         }
+
         var maxValue = mostFrequentWords.Values.Max();
         var maxElements = mostFrequentWords.Where(pair => pair.Value == maxValue);
 
         foreach (var word in words)
         {
             sumWordLength += word.Length;
-
         }
 
         double averageWordLength = sumWordLength / words.Length;
@@ -57,10 +55,11 @@ class Program
         Console.WriteLine($"Количество предложений: {sentenceCount}");
 
         Console.WriteLine("Слова, встречающиеся максимальное количество раз:");
+
         foreach (var pair in maxElements)
-            {
-                Console.WriteLine($"    {pair.Key}: {pair.Value} раз(а)");
-            }
+        {
+            Console.WriteLine($"    {pair.Key}: {pair.Value} раз(а)");
+        }
 
         Console.WriteLine($"Средняя длина слов: {averageWordLength:F2}\n");
     }
