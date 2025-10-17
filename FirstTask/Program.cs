@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 
 class Program
 {
@@ -7,8 +6,8 @@ class Program
     {
         Console.WriteLine("Введите температуру в градусах Цельсия:");
         string input = Console.ReadLine();
-        int celsius;
-        bool isSuccess = int.TryParse(input, out celsius);
+        double celsius;
+        bool isSuccess = double.TryParse(input, out celsius);
         if (!isSuccess)
         {
             Console.WriteLine("Неверный формат числа!");
